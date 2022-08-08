@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,300&display=swap" rel="stylesheet">
+<title>Lets Chat Room</title>
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="lets_chat.css">
+
+
+</head>
+<body>
+    
+<button class="btn btn-danger" id="logOutBtn" onclick="logOut()">Log Out</button>
+
+<div class="container">
+   
+        <center>
+            <h1 class="header">	
+               Lets Chat
+                
+            </h1>
+
+            <h1 id="usernameText"></h1>
+            
+            <h3 class="color_white"></h3>
+            <div class="form-group input_div_room_page">
+                <label>#Add Room:</label>
+                <input type="text" id="room_name" class="form-control">
+            </div>
+
+            <button class="btn btn-success" onclick="addRoom()">#Add Room</button>
+        
+        <br>
+        <br>
+
+            <div id="output" >
+       
+            </div>
+        </center>
+    </div>
+
+    <script src="lets_chat_room.js"></script>
+
+</body>
+</html>
